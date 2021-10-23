@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="ISO-8859-1">
+    <title>Mphasis Training</title>
+</head>
+
+<body>
+
+    <form name="login">
+        <table border="3" align="center">
+            <tr>
+                <th>Stock ID</th>
+                <td><input type="text" name="stockID" placeholder="enter stock id" /></td>
+            </tr>
+            <tr>
+                <th>Item Name</th>
+                <td><input type="text" name="itemName" placeholder="enter item name" /></td>
+            </tr>
+            <tr>
+                <th>Quantity Available</th>
+                <td><input type="number" name="quantityAvailable" placeholder="enter quantity" /></td>
+            </tr>
+            <tr>
+                <th>Item Description</th>
+                <td><input type="text" name="itemDescription" placeholder="enter stock id" /></td>
+            </tr>
+            <tr>
+                <th>City</th>
+                <td>
+                    <select name="city">
+                        <option name="bengaluru">Bengaluru</option>
+                        <option name="kerala">Kerala</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th>Zipcode</th>
+                <td><input type="text" name="zipcode" pattern="[0-9]{6}" required="required"
+                        placeholder="enter zipcode" /></td>
+            </tr>
+            <tr>
+
+                <th colspan="2"><input type="submit" value="show" />
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="reset" value="Reset" />
+                </th>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>

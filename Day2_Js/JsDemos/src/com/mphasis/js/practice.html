@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript">
+
+	function show()
+	{
+		var name=ok.nm.value;
+			document.getElementById("na").innerHTML=name;
+	}
+	
+	
+</script>
+<meta charset="ISO-8859-1">
+<title>js</title>
+</head>
+<body>
+	<form name="ok">
+		<center> Select name
+			<select name="nm" onchange="show()">
+				<option value="dk" >dk</option>
+				<option value="sp" >sp</option>
+			</select>
+			<span id="na"></span>
+		</center>
+		
+	</form>
+
+</body>
+</html>
